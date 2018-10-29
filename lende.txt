@@ -1,0 +1,4 @@
+Algjeber,Thanas,6,1
+Anglisht,Jolanda,5,1
+Databaze,Alba,12,2
+Algoritme,Bora,12,2

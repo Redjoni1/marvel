@@ -1,0 +1,243 @@
+body{
+  background-image: url("poster.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.users {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: white;
+}
+
+.users td, .users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.users tr:nth-child(even){background-color: #f2f2f2;}
+
+.users tr:hover {background-color: #ddd;}
+
+.users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #303030;
+    color: white;
+}
+
+.navbar {
+	background-color: black;
+	color: white;
+	text-align: right;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	margin-bottom: 1.25%;
+	border-radius: 6px;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.upload {
+	text-align: left;
+	background-color: #A9A9A9;
+	padding: 1.25%;
+	display: inline-block;
+	border-radius: 6px;
+}
+
+.div-upload {
+	text-align: center;
+}
+
+.upl2 {
+	padding-top: 3%;
+}
+
+.upl3 {
+	padding-top: 3%;
+}
+
+.upl4 {
+	padding-left: 110px;
+    padding-top: 3%;
+}
+
+.card {
+	display: inline-block;
+    box-shadow: 0 4px 8px 0;
+    background-color: white;
+    transition: 0.3s;
+    width: 20%;
+    padding: 1.25%;
+    margin: 1.25%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    text-align: center;
+}
+
+.img {
+	width: 100%;
+	height: auto;
+	align-self: center;
+}
+
+.btn {
+	width: 70px;
+    height: 25px;
+    border: none;
+    background-color: #303030;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover {
+	background-color: #FF0000 ;
+	border-color: #D00000;
+	box-shadow: 0 3px 5px 0;
+}
+
+.btn-logout {
+	width: 70px;
+    height: 25px;
+    border: none;
+    background-color: #D00000;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-logout:hover {
+	background-color: #FF0000 ;
+}
+
+.btn-table {
+	width: 70px;
+    height: 25px;
+    border: none;
+    background-color: #303030;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-table:hover {
+	background-color: #FF0000 ;
+	border-color: #D00000;
+}
+
+.btn-tbl {
+	width: 70px;
+    height: 25px;
+    border: none;
+    background-color: #303030;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-tbl:hover {
+	background-color: #66b3ff ;
+	border-color: #D00000;
+}
+
+.btn-like {
+	width: 50px;
+    height: 25px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-like:hover {
+	background-color: white ;
+	border: 1px solid green;
+	color: green;
+}
+
+.btn-upload {
+	width: 60px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.btn-upload:hover {
+	background-color: #555555 ;
+	border: 1px solid green;
+	color: white;
+}
+
+.post-title {
+	text-align: center;
+	background-color: #4e6980de;
+	color: white;
+	border-radius: 6px;
+}
+
+.menu{
+	position: sticky;
+	top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 1.25%;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(last-child) {
+    background-color: #111;
+}
+
+.name {
+	color: white;
+	background-color: black;
+}
+
+.mySlides{
+	display: none;
+}
+
+#content {
+    background-color: #da85bc9e;
+    overflow-x: auto;
+}
+
+.home-content {
+    background-color: #da85bc9e;
+}
